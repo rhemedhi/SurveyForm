@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-image: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg"),
+    linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7));
+}
+main {
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+body::before {
+  content: "";
+  background-size: contain;
+  position: fixed;
+  background-position: center;
+  background-attachment: fixed;
+}
+#title {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(209, 98, 209);
+}
+#survey-form {
+  padding: 30px;
+}
+#name {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+#email {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+#number {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+#dropdown {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+#dropdown-favfeature {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+}
+#textarea {
+  width: 100%;
+  height: auto;
+  margin-top: 5px;
+}
+#submit {
+  width: 100%;
+  height: 40px;
+}
+
+@media (max-height: 600px) {
+  #survey-form {
+    padding: 5px;
+  }
+  #textarea {
+    height: 60px;
+  }
+}
+@media (max-height: 800px) {
+  #survey-form {
+    padding: 10px;
+  }
+  #textarea {
+    height: 70px;
+  }
+}
+@media (max-height: 1000px) {
+  #survey-form {
+    padding: 15px;
+  }
+  #textarea {
+    height: 90px;
+  }
+}
+@media (max-height: 1500px) {
+  #survey-form {
+    padding: 20px;
+  }
+  #textarea {
+    height: 100px;
+  }
+}
